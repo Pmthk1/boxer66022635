@@ -4,7 +4,7 @@ pipeline {
         stage("Copy file to Docker server") {
             steps {
                 // ใช้ path ที่ตรงกับ workspace จริง
-                sh "scp -r /var/lib/jenkins/workspace/admin-boxer/* root@43.209.12.132:~/admin-boxer"
+                sh "scp -r /var/lib/jenkins/workspace/admin-boxer/* root@43.208.154.11:~/admin-boxer"
             }
         }
         
