@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: team6_boxer:latest #docker image name
+         name: admin6-boxer:latest #docker image name
          source: build
          build:
-            path: ~/team6_boxer #path ที่เก็บไฟล์ sourcecode 
+            path: ~/admin6-boxer #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
