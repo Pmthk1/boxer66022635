@@ -5,7 +5,7 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: admin6-boxer:latest #docker image name
+         name: admin-boxer:latest #docker image name
          source: build
          build:
             path: ~/admin-boxer #path ที่เก็บไฟล์ sourcecode 
