@@ -8,6 +8,6 @@
          name: admin6-boxer:latest #docker image name
          source: build
          build:
-            path: ~/admin6-boxer #path ที่เก็บไฟล์ sourcecode 
+            path: ~/admin-boxer #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
